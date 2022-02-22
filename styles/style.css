@@ -1,0 +1,31 @@
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+h1 {
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.content-links {
+  text-decoration: none;
+  display: block;
+  color: black;
+  margin: 20px 0px;
+  padding: 10px;
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+}
+
+.links-section {
+  border-right: 2px solid rgba(61, 60, 60, 0.5);
+  width: 300px;
+  margin-left: 0px;
+}
+
+main {
+  display: flex;
+}
