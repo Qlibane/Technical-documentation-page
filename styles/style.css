@@ -29,3 +29,7 @@ h1 {
 main {
   display: flex;
 }
+
+.contents-section {
+    margin-left: 20px;
+}
