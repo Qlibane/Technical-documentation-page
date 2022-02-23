@@ -4,12 +4,15 @@ body {
 }
 
 .heading {
-  margin: 10px 0px;
+  margin: 0px 0px 10px 0px;
   padding: 10px;
   position: fixed;
   z-index: 2;
   background-color: white;
   width: 300px;
+}
+h1 {
+    font-size: 24px;
 }
 
 .content-links {
@@ -24,15 +27,11 @@ body {
   border-top: 0px;
   width: 300px;
   font-weight: 400;
-  
-  
 }
 
 .links-container {
-  position: fixed;
   left: 0px;
   overflow: scroll;
-  height: 100%;
   margin-top: 100px;
   z-index: 1;
   border-top: 1px solid black;
@@ -42,17 +41,20 @@ body {
 .links-section {
   width: 321px;
   border-right: 1px solid black;
-  
-  
+  display: flex;
+  justify-content: start;
+  position: fixed;
+  height: 100%;
+
 }
 
 main {
   display: flex;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contents-section {
-  margin-left: 320px;
+  margin-left: 340px;
   margin-right: 20px;
   font-weight: 300;
 }
@@ -66,17 +68,17 @@ main {
   display: flex;
   justify-content: left;
   align-items: center;
-  height: 50px;
+  height: 80px;
+  border-radius: 10px;
   
 }
 code {
-   width: 60%;
-   margin: 10px;
-   padding: 10px;
-
+  width: 60%;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1.5;
 }
 .mdn-link {
-    text-decoration: none;
-    color: blue;
-
+  color: blue;
 }
+
